@@ -1,4 +1,4 @@
-READ ME
+##READ ME
 
 
 This is the course project for Getting and Cleaning Data. In it, we merge the provided data into one data set, and perform analysis. RUnning the program downloads and unzips the data.
