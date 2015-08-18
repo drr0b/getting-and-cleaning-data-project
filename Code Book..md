@@ -1,4 +1,16 @@
 ## Code Book for sum_tab.txt
+
+### Transformations
+-- Each data set (training and test) consisted of a X_ file containing the body of the information (561 columns), a y_ file showing the activity (1-6),  and a subject_ file saying who the subject was (1-30).
+-- The y_ and subject files were appended to the corresponding X_ files with cbind, adding activity and subject columns
+-- The test and train data sets were combined with rbind to vreate a merged table with 10299 rows and 563 columns
+-- Only data pertaining to means and standard deviations of time domain statistics were extracted from the merged table (see below)
+-- Activities were given labels rather than numbers
+-- A new table was created, grouping by activity using dplyr
+-- A summary table was created, getting the mean of every value, and each activity
+
+### Data
+
 This table gives the *Mean value of each variable for each specific activity.
 
 Each  Column  represents  means (Mean.something) and standard deviations (SDev.something) of various values measured by the device. The full 561  Column  data include data in the time domain and frequency domain, so I only considered the data from the time domain. For each attribute, the x, y, and z components are given (..._X, ..._Y, and ..._Z) as well as the magnitude (...Mag).
