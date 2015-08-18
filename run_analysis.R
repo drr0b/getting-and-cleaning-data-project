@@ -1,8 +1,8 @@
 ### Course Project
 # Download and unzip data
-#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
-#              destfile="data.zip")
-#unzip("data.zip")
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
+             destfile="data.zip")
+unzip("data.zip")
 
 # This makes a folder with contents described in  "Read Me.md".  First read in some data. fill=TRUE
 #adds any required missing text to bring rows to equal length
