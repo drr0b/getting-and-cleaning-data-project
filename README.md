@@ -16,7 +16,7 @@ Running the run_analysis.R script does the following.
 * Activities were properly labeled
 * A new table was made (for details see codebook)
 * Table was grouped by activity then summarised.
-* A plaintext table was created (sum_tab.txt). This can be read in simply using read.table("sum_tab.txt)
+* A plaintext table was created (sum_tab.txt) that gives average for each activity for all subjects together. This can be read in simply using read.table("sum_tab.txt)
 
 *** NOTE
 Since the values are normalised to a particular number, before given a range between -1 and 1, I guess negative standard deviations are allowed :).
