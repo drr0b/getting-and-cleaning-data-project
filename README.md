@@ -9,6 +9,7 @@ Unzipping the data yields a folder "UCI HAR Dataset" that contains separate fold
 The top level of the data folder contains a file called features.txt that identifies the columns of the X- files, while activities.txt identify the activities.
 
 ### Procedure
+Running the run_analysis.R script does the following.
 * The activity and subject data were added to the corresponding X_files
 * The training and test data sets were merged
 * Useful columns containing means and standard deviations of interesting values were identified
